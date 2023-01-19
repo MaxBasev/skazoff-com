@@ -3,12 +3,15 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Format from '../layout/format'
 
+//components
+import TopComponents from '../components/top-section'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (    
   <Format>
-    <h1>Home</h1>
+    <TopComponents></TopComponents>
   </Format>
   )
 }
