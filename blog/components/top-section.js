@@ -13,7 +13,7 @@ export default function topSection() {
     SwiperCore.use([Autoplay]);
 
     const bg = {
-        background: "url('/images/moon-marek-okon.jpg') no-repeat right center",
+        // background: "url('/images/moon-marek-okon.jpg') no-repeat right center",
     }
     return(
         <section className="py-16" style={bg}>
