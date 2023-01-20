@@ -7,6 +7,7 @@ import Format from '../layout/format'
 import TopComponents from '../components/top-section'
 import MainComponents from '../components/main-section'
 import PopularSection from '../components/popular-section'
+import CategorySection from '../components/category-section'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
     <TopComponents></TopComponents>
     <MainComponents></MainComponents>
     <PopularSection></PopularSection>
+    <CategorySection></CategorySection>
   </Format>
   )
 }
