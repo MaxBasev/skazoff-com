@@ -1,7 +1,7 @@
 import Format from '../../layout/format'
 import Author from '../../components/_child/author'
 import Image from 'next/image'
-import Ralated from '../../components/_child/ralated'
+import Ralated from '../../components/_child/related'
 
 export default function Page(){
     return (
